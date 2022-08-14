@@ -18,9 +18,9 @@
 ### Table of Contents
 * [Basics](#basics)    
 * [Adding and Changing Things](#adding-and-changing-things)    
-* [Next Section (todo: Fix This)](#next-section)    
-* [Next Section (todo: Fix This)](#next-next-section)    
-* [Commands for Remotes](remote-commands.md)   
+* [Undo Changes and Recover Files](#undo-changes-and-recover-files)    
+* [Viewing Commits](#viewing-commits)
+* [Branch and Merge](#branch-and-merge)  
 * [Favorites](#favorites)     
 * [Resources](#resources)
 
@@ -77,6 +77,7 @@ test/
 1. Add README.md and *everything* in the `src` directory to the git staging area.
    ```
    git add README.md
+   git add src
    ```
 
 2. Add `test/test_a.py` to the staging area (but not any other files).
@@ -87,6 +88,7 @@ test/
 3. List the files in the staging area.
    ```
    git ls-files --stage
+   
    ```
 
 
@@ -121,9 +123,9 @@ test/
 
 
 9. Command to add **all changed files** (but not untracked files) to the staging area using a single command.
-    ```
-    git add -u
-    ```
+   ```
+   git add -u
+   ```
 
 
 10. **Delete** the file `c.py` from your working copy **and** the repository:
@@ -260,8 +262,11 @@ test/
 
 ## Favorites
    ```
-   git config : This command allows you to set or view your git configuration.
+   Viewing commits : It's really useful that we can view the history of commits in the repository. 
+   To do this, we can use the command `git log`. or `git log --oneline`.
+   Also we can list all the files in the current branch of the repository using the command `git ls-files`.
    ```
+
    
    
 
@@ -269,8 +274,7 @@ test/
 ---
 ## Resources
 
-> TODO: Add your favorite Git resources (at least 1)
-
+[Stack Overflow][Stack Overflow] - A great resource for learning Git.
 [Pro Git Online Book][ProGit] Chapters 2 & 3 contain the essentials. Downloadable PDF is also available.     
 [Visual Git Reference](https://marklodato.github.io/visual-git-guide) one page with illustrations of git commands.
 
@@ -286,3 +290,4 @@ Try Git:
 [markdown-cheatsheet]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 [github-markdown]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 [vscode-markdown-preview-enhanced]: https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced
+[Stack Overflow]: https://stackoverflow.com/ "A great resource for learning Git."
