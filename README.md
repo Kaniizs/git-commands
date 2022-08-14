@@ -130,7 +130,7 @@ test/
 
 10. **Delete** the file `c.py` from your working copy **and** the repository:
     ```
-    git rm c.py
+    git rm -r c.py
     ```
 
 
