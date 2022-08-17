@@ -1,7 +1,9 @@
+
 # Quick Guide to Git
-
 By Isaraa Phadungprasertkul
+# The Ultimate Guide to Using Git
 
+***For The Impatient.***
 ## Using Git
 
 ### Table of Contents
