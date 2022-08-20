@@ -20,7 +20,7 @@
    fatal:  The current branch dev-foo has no upstream branch. 
    ```
    Explain this error.
-   > Because this branch is not on a remote repository yet, you can't push to it. To fix it, you need to add a branch to a remote repository first
+   > Because this branch is not on a remote repository yet, you can't push to it. To fix it, you need to add a branch to a remote repository first.
 
 
 4. The command to push `dev-foo` to `origin` as a **new remote branch** on `origin` is: 
